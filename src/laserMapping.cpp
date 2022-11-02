@@ -36,6 +36,7 @@
 
 #include <math.h>
 #include <vector>
+#include <eigen3/Eigen/Dense>
 #include <aloam_velodyne/common.h>
 #include <nav_msgs/Odometry.h>
 #include <nav_msgs/Path.h>
@@ -50,7 +51,6 @@
 #include <sensor_msgs/PointCloud2.h>
 #include <tf/transform_datatypes.h>
 #include <tf/transform_broadcaster.h>
-#include <eigen3/Eigen/Dense>
 #include <ceres/ceres.h>
 #include <mutex>
 #include <queue>

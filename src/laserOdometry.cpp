@@ -35,6 +35,7 @@
 // POSSIBILITY OF SUCH DAMAGE.
 
 #include <cmath>
+#include <eigen3/Eigen/Dense>
 #include <nav_msgs/Odometry.h>
 #include <nav_msgs/Path.h>
 #include <geometry_msgs/PoseStamped.h>
@@ -48,7 +49,6 @@
 #include <sensor_msgs/PointCloud2.h>
 #include <tf/transform_datatypes.h>
 #include <tf/transform_broadcaster.h>
-#include <eigen3/Eigen/Dense>
 #include <mutex>
 #include <queue>
 
